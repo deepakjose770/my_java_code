@@ -7,9 +7,24 @@
       <option name="url" value="https://repo.maven.apache.org/maven2" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="FeasyBuildArtifacts" />
+      <option name="name" value="FeasyBuildArtifacts" />
+      <option name="url" value="https://repository.rnd.amadeus.net/artifactory/feas-maven-dev-inst-nce" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="Maven Central repository" />
       <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="public" />
+      <option name="name" value="public" />
+      <option name="url" value="https://repository.rnd.amadeus.net/mvn-public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="TCPBuildArtifacts" />
+      <option name="name" value="TCPBuildArtifacts" />
+      <option name="url" value="https://repository.rnd.amadeus.net/artifactory/mvp-maven-dev-tcp" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="jboss.community" />
