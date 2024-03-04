@@ -1,11 +1,0 @@
-
-u
-java:S1488/"_Immediately return this expression instead of assigning it to the temporary variable "myArray".(Ò«øÖ
-n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(’ÇïX
-S	java:S106"9Replace this use of System.out or System.err by a logger.(¨á¯ìøÿÿÿÿ
-Q	java:S125
-"<This block of commented-out lines of code should be removed.(þìûü
-<
-java:S1481"&Remove this unused "k" local variable.(¢³¯¯
-V	java:S125("<This block of commented-out lines of code should be removed.(ÔÕ¿³ùÿÿÿÿ
-Q	java:S125."<This block of commented-out lines of code should be removed.(‡†¹Á
