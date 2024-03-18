@@ -1,0 +1,11 @@
+
+r	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(¿èý·ùÿÿÿÿ
+r	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(ÅÂ¦¾ùÿÿÿÿ
+r	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(÷•®Éúÿÿÿÿ
+r	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(ÀÕ›êúÿÿÿÿ
+r	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(÷•®Éúÿÿÿÿ
+r	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(ÀÕ›êúÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Æ™†ƒûÿÿÿÿ
+N	java:S106
+"9Replace this use of System.out or System.err by a logger.(ÙãÎ¡
+V	java:S125#"<This block of commented-out lines of code should be removed.(·öä¹ùÿÿÿÿ

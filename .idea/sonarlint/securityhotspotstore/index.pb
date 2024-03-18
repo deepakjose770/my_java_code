@@ -5,3 +5,13 @@ b
 2src/main/java/com/deepak/blind75/StockBuySell.java,a\d\ad32258f5f3cb0c99cdae0763e3cd158e09641c0
 g
 7src/main/java/com/deepak/blind75/ProductExceptSelf.java,b\f\bfcde59391c066cac5e45308e567143337438abd
+Q
+!src/main/java/EasyQ/FizzBuzz.java,e\a\eaa67fdc4600cba2dab5c28bd3927b1b9bcb4749
+e
+5src/main/java/com/deepak/weekOne/MajorityElement.java,2\a\2a08c9919773698f6d2a9555660fc0a6e9428358
+k
+;src/main/java/com/deepak/weekOne/MaximumPopulationYear.java,4\1\413792215bd7ed1ba0d3ef59586dca7d005c3f1a
+g
+7src/main/java/com/deepak/weekOne/SortedArraySquare.java,e\2\e2a77b93b9004c071e79b7ef84b72761dced225e
+m
+=src/main/java/com/deepak/weekOne/IntersectionOfTwoArrays.java,e\e\ee07009be0271f962e4a0bc69c41ab7fe23eb9e0
