@@ -11,6 +11,10 @@ public class MyBinaryTree {
         tree.insert(5);
 
         tree.inOrder();
+        System.out.println();
+        tree.preOrder();
+        System.out.println();
+        tree.postOrder();
 
     }
 }
