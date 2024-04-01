@@ -19,3 +19,5 @@ W
 'src/main/java/com/deepak/Fibonacci.java,f\4\f41501a453aff847c4caab0415371111911d90b6
 p
 @src/main/java/com/deepak/weekOne/IntersectionOfTwoArraysTwo.java,9\b\9bffe58d0075c85fe36b849d8e0ca43369e7d3e5
+`
+0src/main/java/com/deepak/weekTwo/PivotIndex.java,c\4\c4bff40bd926e2cda9bbe37369802c091ed2086e
