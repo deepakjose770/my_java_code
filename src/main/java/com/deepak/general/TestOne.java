@@ -15,6 +15,6 @@ public class TestOne {
         tree.insert(3);
 
         System.out.println("Inorder");
-        tree
+        //tree
     }
 }
