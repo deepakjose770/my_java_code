@@ -83,4 +83,12 @@ public class BinaryTree {
             }
         }
     }
+
+
+    public Node searchBST(Node root, int val) {
+        while (root != null && root.data != val) {
+            root = (root.data < val) ? root.right : root.left;
+        }
+        return root;
+    }
 }

@@ -26,6 +26,12 @@ public class MyBinaryTree {
         System.out.println("LevelOrder");
         tree.printLevelOrder();
 
+        System.out.println();
+        System.out.println();
+        System.out.println(" The value 5 is present in the tree: " + tree.searchBST(tree.root, 5).data);
+
+
+
 
     }
 }
