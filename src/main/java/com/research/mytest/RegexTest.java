@@ -5,11 +5,9 @@ public class RegexTest {
     public static void main(String[] args) {
         String s = "aa";
         String p = "a*";
-        System.out.println(isMatch(s, p));
+        //System.out.println(isMatch(s, p));
     }
 
-    private static boolean isMatch(String s, String p) {
-
-    }
+    //
 
 }
