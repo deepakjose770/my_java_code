@@ -1,0 +1,10 @@
+
+E
+java:S1197"*Move the array designators [] to the type.(¾«Ü§üÿÿÿÿ
+S	java:S106	"9Replace this use of System.out or System.err by a logger.(õø¹øøÿÿÿÿ
+J
+java:S2864"4Iterate over the "entrySet" instead of the "keySet".(ÁÐ¹Ö
+J
+java:S28644"4Iterate over the "entrySet" instead of the "keySet".(ÁÐ¹Ö
+L
+java:S1144"1Remove this unused private "topKFrequent" method.(þ‰Ö¼ýÿÿÿÿ
