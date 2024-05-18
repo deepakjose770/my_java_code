@@ -2,7 +2,7 @@ package com.deepak.blind75;
 
 import java.util.*;
 
-public class TopKElements {
+public class TopKElements_347 {
     public static void main(String[] args) {
         int nums[]  = {1,1,1,1,2,2,3,3,4};
         int k =2;

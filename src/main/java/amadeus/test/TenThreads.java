@@ -16,8 +16,7 @@ public class TenThreads {
     private static final AtomicInteger threadNumber = new AtomicInteger(1);
     public static void main(String[] args) {
         ExecutorService executor = Executors.newFixedThreadPool(10);
-        AtomicInteger highTime = new AtomicInteger();
-        for (int i = 0; i < 50; i++) {
+        for (int i = 0; i < 500; i++) {
             //int threadId = threadNumber.getAndIncrement();
             executor.submit(() -> {
                 //System.out.println("Executing thread number: " + threadId);
@@ -25,11 +24,11 @@ public class TenThreads {
                     String url = API_ENDPOINT_1 + generateRandomString() + API_ENDPOINT_2;
                     long startTime = System.nanoTime();
                     callAPI(url);
-                    long endTime = System.nanoTime();
-                    long duration = (endTime - startTime);
-                    long milli = TimeUnit.NANOSECONDS.toMillis(duration);
-                    //System.out.println("API call took " + duration + " nanoseconds");
-                    System.out.println("API call took " + milli + " milliseconds");
+                        long endTime = System.nanoTime();
+                        long duration = (endTime - startTime);
+                        long milli = TimeUnit.NANOSECONDS.toMillis(duration);
+                        //System.out.println("API call took " + duration + " nanoseconds");
+                        System.out.println("API call took " + milli + " milliseconds");
                 }
             });
         }
