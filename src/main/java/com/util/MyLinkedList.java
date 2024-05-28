@@ -1,6 +1,6 @@
 package com.util;
 
-import org.w3c.dom.Node;
+import com.deepak.util.ListNode;
 
 public class MyLinkedList<T> {
     public ListNode<T> head;

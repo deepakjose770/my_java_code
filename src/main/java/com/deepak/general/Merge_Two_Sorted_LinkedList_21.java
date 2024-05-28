@@ -1,6 +1,6 @@
 package com.deepak.general;
 
-import com.util.ListNode;
+import com.deepak.util.ListNode;
 import com.util.MyLinkedList;
 
 public class Merge_Two_Sorted_LinkedList_21 {
