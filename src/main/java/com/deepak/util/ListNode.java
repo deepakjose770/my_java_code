@@ -1,5 +1,8 @@
 package com.deepak.util;
 
+import java.util.HexFormat;
+import java.util.List;
+
 public class ListNode<T> {
     public T val;
     public ListNode<T> next;
@@ -22,6 +25,13 @@ public class ListNode<T> {
             head = head.next;
         }
         return finalHead;
+    }
+
+    public static ListNode<Integer> getLastNode(ListNode<Integer> head) {
+        while(head.next != null) {
+            head = head.next;
+        }
+        return head;
     }
 
     public static void printList(ListNode head) {
