@@ -11,16 +11,16 @@ public class Isomorphic_Strings_205 {
     }
 
     private static boolean isIsomorphic(String s, String t) {
-        char[] charArray = s.toCharArray();
+        if (s.length() != t.length()) {
+            return false;
+        }
+
         Map<Character, Character> characterMap = new HashMap<Character, Character>();
-        for (int i = 0; i < t.length(); i++) {
-            if (characterMap.containsKey(s.charAt(i)) && t.charAt(i) == characterMap.get(s.charAt(i))) {
+        for (int i = 0; i < s.length(); i++) {
+            if (!characterMap.containsKey(s.charAt(i))) {
                 continue;
-            } else if(!characterMap.containsKey(s.charAt(i))){
-                characterMap.put(s.charAt(i), t.charAt(i));
-            } else {
-                return false;
             }
+            characterMap.put(s.charAt(i), t.charAt(i));
         }
         return true;
     }
