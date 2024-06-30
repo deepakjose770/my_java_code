@@ -14,15 +14,15 @@ public class MergeSortedArray_88 {
 
     private static void merge(int[] nums1, int[] nums2, int m, int n) {
         int replacePointerIndex = m+n-1;
-        m=m-1;
-        n=n-1;
-        while (n>=0) {
-            if(m>=0 && nums1[m] > nums2[n]) {
-                nums1[replacePointerIndex] = nums1[m];
-                m--;
+        int pointerOne =m-1;
+        int pointerTwo =n-1;
+        while (pointerTwo>=0) {
+            if(pointerOne>=0 && nums1[pointerOne] > nums2[pointerTwo]) {
+                nums1[replacePointerIndex] = nums1[pointerOne];
+                pointerOne--;
             } else {
-                nums1[replacePointerIndex] = nums2[n];
-                n--;
+                nums1[replacePointerIndex] = nums2[pointerTwo];
+                pointerTwo--;
             }
             replacePointerIndex--;
         }
