@@ -31,8 +31,8 @@ public class GenerateParentheses_22 {
         System.out.println("Test case 1 (n=3): " + generateParenthesis(n1));
 
         // Test case 2
-        int n2 = 2;
-        System.out.println("Test case 2 (n=2): " + generateParenthesis(n2));
+        //int n2 = 2;
+        //System.out.println("Test case 2 (n=2): " + generateParenthesis(n2));
     }
 }
 
