@@ -3,26 +3,26 @@ package com.deepak.general;
 import java.util.LinkedList;
 import java.util.Queue;
 
-class Node {
+class BNode {
     int data;
-    Node right;
-    Node left;
+    BNode right;
+    BNode left;
 
-    public Node(int data) {
+    public BNode(int data) {
         this.data = data;
     }
 }
 
 public class BinaryTree {
-    Node root;
+    BNode root;
 
     public void insert(int data) {
         root = insetRec(root, data);
     }
 
-    private Node insetRec(Node root, int data) {
+    private BNode insetRec(BNode root, int data) {
         if (root == null) {
-            root = new Node(data);
+            root = new BNode(data);
         } else if (data < root.data) {
             root.left = insetRec(root.left, data);
         } else if (data > root.data) {
@@ -35,7 +35,7 @@ public class BinaryTree {
         inOrderRec(root);
     }
 
-    private void inOrderRec(Node root) {
+    private void inOrderRec(BNode root) {
         if (root != null) {
             inOrderRec(root.left);
             System.out.print(root.data + " ");
@@ -47,7 +47,7 @@ public class BinaryTree {
         preOrderRec(root);
     }
 
-    private void preOrderRec(Node root) {
+    private void preOrderRec(BNode root) {
         if(root != null) {
             System.out.print(root.data + " ");
             preOrderRec(root.left);
@@ -59,7 +59,7 @@ public class BinaryTree {
         postOrderRec(root);
     }
 
-    private void postOrderRec(Node root) {
+    private void postOrderRec(BNode root) {
         if(root != null) {
             postOrderRec(root.left);
             postOrderRec(root.right);
@@ -68,10 +68,10 @@ public class BinaryTree {
     }
 
     public void printLevelOrder() {
-        Queue<Node> queue = new LinkedList<Node>();
+        Queue<BNode> queue = new LinkedList<BNode>();
         queue.add(root);
         while (!queue.isEmpty()) {
-            Node tempNode =  queue.poll();
+            BNode tempNode =  queue.poll();
             System.out.print(tempNode.data + " ");
 
             if(tempNode.left != null) {
@@ -85,7 +85,7 @@ public class BinaryTree {
     }
 
 
-    public Node searchBST(Node root, int val) {
+    public BNode searchBST(BNode root, int val) {
         while (root != null && root.data != val) {
             root = (root.data < val) ? root.right : root.left;
         }
