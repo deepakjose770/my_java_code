@@ -1,7 +1,7 @@
-package oop.design.impl.trafficSignalControlSystem;
+package oop.design.impl.TrafficSignalControlSystem;
 
 public class TrafficSignalSystemDemo {
-    public static void run() {
+    public static void main(String[] args) {
         TrafficController trafficController = TrafficController.getInstance();
 
         // Create roads
@@ -11,10 +11,10 @@ public class TrafficSignalSystemDemo {
         Road road4 = new Road("R4", "Elm Street");
 
         // Create traffic lights
-        TrafficLight trafficLight1 = new TrafficLight("TL1", 6000, 3000, 9000);
-        TrafficLight trafficLight2 = new TrafficLight("TL2", 6000, 3000, 9000);
-        TrafficLight trafficLight3 = new TrafficLight("TL3", 6000, 3000, 9000);
-        TrafficLight trafficLight4 = new TrafficLight("TL4", 6000, 3000, 9000);
+        TrafficLight trafficLight1 = new TrafficLight("TL1", 2000, 1000, 2500);
+        TrafficLight trafficLight2 = new TrafficLight("TL2", 2000, 1000, 2500);
+        TrafficLight trafficLight3 = new TrafficLight("TL3", 2000, 1000, 2500);
+        TrafficLight trafficLight4 = new TrafficLight("TL4", 2000, 1000, 2500);
 
         // Assign traffic lights to roads
         road1.setTrafficLight(trafficLight1);
@@ -32,6 +32,11 @@ public class TrafficSignalSystemDemo {
         trafficController.startTrafficControl();
 
         // Simulate an emergency on a specific road
-        trafficController.handleEmergency("R2");
+        try {
+            Thread.sleep(12000);
+            trafficController.handleEmergency("R2");
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

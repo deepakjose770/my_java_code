@@ -1,4 +1,4 @@
-package oop.design.impl.trafficSignalControlSystem;
+package oop.design.impl.TrafficSignalControlSystem;
 
 public enum Signal {
     RED,

@@ -1,4 +1,4 @@
-package oop.design.impl.trafficSignalControlSystem;
+package oop.design.impl.TrafficSignalControlSystem;
 
 public class Road {
     private final String id;
@@ -20,5 +20,9 @@ public class Road {
 
     public String getId() {
         return id;
+    }
+
+    public String getName() {
+        return name;
     }
 }
