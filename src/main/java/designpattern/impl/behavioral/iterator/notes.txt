@@ -1,0 +1,1 @@
+Provides a way to access the elements of an aggregate object without exposing its underlying represenation.

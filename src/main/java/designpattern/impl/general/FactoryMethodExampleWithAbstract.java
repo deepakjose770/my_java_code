@@ -1,4 +1,4 @@
-package designpattern.impl;
+package designpattern.impl.general;
 
 // Abstract Product Class
 abstract class Product {
