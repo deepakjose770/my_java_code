@@ -1,5 +1,7 @@
 package com.leetcode.questions;
 
+import com.deepak.util.ListNode;
+
 import java.util.List;
 
 public class Add_Two_Numbers_2 {
@@ -10,8 +12,8 @@ public class Add_Two_Numbers_2 {
         ListNode current = listNode3;
         int carry = 0;
         while (listNode1 != null || listNode2 != null) {
-            int x = (listNode1 != null) ? listNode1.val : 0;
-            int y = (listNode2 != null) ? listNode2.val : 0;
+            int x = (listNode1 != null) ? (int) listNode1.val : 0;
+            int y = (listNode2 != null) ? (int) listNode2.val : 0;
             int sum = carry + x + y;
             carry = sum / 10;
             current.next = new ListNode(sum % 10);
